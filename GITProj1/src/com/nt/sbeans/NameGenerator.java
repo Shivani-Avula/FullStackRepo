@@ -18,11 +18,11 @@ public class NameGenerator {
 	 LocalDate ldate = LocalDate.now();
 	 int month=ldate.getMonthValue();
 	 if(month>=2 && month<=5)
-		 return name+" Summer season";
+		 return name+" Summer  season";
 	 else if(month>=6 && month<=9)
-		 return name+" Rainy season";
+		 return name+" Rainy  season";
 	 else
-		 return name+" Winter season";
+		 return name+" Winter  season";
 		 
  }
  
